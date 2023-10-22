@@ -1,0 +1,176 @@
+/* body{
+    background-color: rgba(221, 221, 221, 0.659);
+   
+} */
+
+/* Default background color */
+body, html {
+   
+    height: 99%;
+    overflow: hidden;
+}
+
+
+
+.image-container img {
+   
+    transition: transform 0.3s ease; /* Add smooth transition effect for the transform property */
+}
+
+.image-container img:hover {
+    transform: scale(1.4); /* Zoom in by 20% when hovered */
+}
+.animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: changeColor 5s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: #b8e1fd;
+    }
+    50% {
+        background-color: #fffccd;
+    }
+    100% {
+        background-color: #ffffff;
+    }
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    body {
+        background-color: #e74c3c;
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+    body {
+        background-color: #2ecc71;
+    }
+}
+
+#image{
+    float: right;
+    justify-content: space-between;
+    width: 700px; height: 10    00px; 
+}
+
+#skillimage{
+    float: right;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+#certificationimg{
+    float: right;
+    justify-content: space-between;
+    width: 600px; height: 900px;
+    padding-right: 60px;
+}
+.tab button{
+    width: 100%;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+}
+
+#Personal h1{
+    padding-top: 155px;
+    padding-left: 70px;
+    font-family: Trirong;
+}
+#Education h1{
+    padding-top: 155px;
+    padding-left: 70px;
+    font-family: Trirong;
+}
+#Skills h1{
+    padding-top: 155px;
+    padding-left: 70px;
+    font-family: Trirong;
+}
+
+#Certifications h1{
+    padding-top: 155px;
+    padding-left: 70px;
+    font-family: Trirong;
+}
+#Certifications h1 ul{
+    list-style-type:square;
+}
+button.no1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(128, 128, 128);
+    color: aliceblue;   
+    float: left;
+    border: none;
+    margin: 0;
+    margin-right: 10px;
+    display: flex;
+    outline:invert;
+    cursor: pointer;
+    width: 23%;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+button.no2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: aliceblue;   
+    float:left;
+    border: none;
+    margin: 0;
+    display: flex;
+    outline:invert;
+    cursor: pointer;
+    width: 23%;
+    margin-right: 10px;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+button.no3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(128, 128, 128);
+    color: aliceblue;   
+    float: left;
+    border: none;
+    margin: 0;
+    margin-right: 10px;
+    display: flex;
+    outline:invert;
+    width: 25%;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+button.no4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: aliceblue;   
+    float:left;
+    border: none;
+    margin: 0;
+    display: flex;
+    outline:invert;
+    cursor: pointer;
+    width: 25%;
+    margin-right: 10px;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
